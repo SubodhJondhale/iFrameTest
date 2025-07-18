@@ -45,7 +45,7 @@ function App() {
       <header style={{ marginBottom: '2rem' }}>
         <h1>Parent Application (localhost:3000)</h1>
       </header>
-      {route === '#/iframe' ? <IframePage /> : <HomePage />}
+      {route === '' ? <IframePage /> : <HomePage />}
     </div>
   );
 }
